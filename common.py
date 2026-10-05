@@ -10,7 +10,7 @@ import numpy as np
 
 ML_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = ML_DIR.parent
-ASSETS_DIR = PROJECT_ROOT / "app" / "src" / "main" / "assets"
+ASSETS_DIR = ML_DIR / "data" / "chapters"
 
 FEATURES: List[str] = [
     "Soc", "Act", "Emp", "Anx", "Ctrl", "Imp", "Ego", "Rig", "Neg", "Adp"
